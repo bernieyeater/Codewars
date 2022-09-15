@@ -1,6 +1,6 @@
 package package1;
 
-public class D29229812_Nth_Power {
+public class D20220912_Nth_Power {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
