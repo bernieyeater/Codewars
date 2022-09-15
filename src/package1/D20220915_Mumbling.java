@@ -16,13 +16,16 @@ public class D20220915_Mumbling {
 			}
 			//if (a<(s.length()-1))  {sOut = sOut + "-";}
 			sOut = a<s.length()-1 ? sOut + "-" :sOut;
+
 		}
 		System.out.println(sOut);
 	}
 }
 
 
-/*This time no story, no theory. The examples below show you how to write function accum:
+/*Problem 
+ * This time no story, no theory. The examples below show you how to write function accum:
+ 
 
 Examples:
 accum("abcd") -> "A-Bb-Ccc-Dddd"
@@ -30,7 +33,7 @@ accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 accum("cwAt") -> "C-Ww-Aaa-Tttt"
 The parameter of accum is a string which includes only letters from a..z and A..Z.
 
-Best Practice
+Best Practice from Others
 public class Accumul {
   public static String accum(String s) {
     StringBuilder bldr = new StringBuilder();
