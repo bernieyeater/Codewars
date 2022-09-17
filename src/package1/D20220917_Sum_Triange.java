@@ -4,10 +4,22 @@ public class D20220917_Sum_Triange {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		int number[] = null; 
+		number = new int[20];
+		
+		int indexer[] = {1,3,6,10,15};
+		int theIndexer=1;
+		int levels = indexer[theIndexer];
+		int theSum = 0;
+		
+		for (int n=1;n<=levels; n++) {
+			theSum = theSum+(n*2-1);
+			System.out.println(theSum);
+			//number[n]=n*2;
+		}
 	}
-
 }
+
 /*
 Given the triangle of consecutive odd numbers:
 
