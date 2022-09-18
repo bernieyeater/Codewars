@@ -12,7 +12,9 @@ public class D20220917_Sum_Triange {
 		int levels = indexer[theIndexer];
 		int theSum = 0;
 		
-		for (int n=1;n<=levels; n++) {
+		for ()
+		
+		for (int n=1;n<=levels; n
 			theSum = theSum+(n*2-1);
 			System.out.println(theSum);
 			//number[n]=n*2;
