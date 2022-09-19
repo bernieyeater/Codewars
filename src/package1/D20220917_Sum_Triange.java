@@ -4,23 +4,44 @@ public class D20220917_Sum_Triange {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int number[] = null; 
-		number = new int[20];
-		
-		int indexer[] = {1,3,6,10,15};
-		int theIndexer=1;
-		int levels = indexer[theIndexer];
+		int levels = 5;
+		int theIndexer=0;
+		int rightIndexer=4;
+		int leftIndexer=2;
+
 		int theSum = 0;
+		int startnum = 0;
+		int endnum =0;
+		int leftNum=0;
+		int rightNum=0;
 		
-		for ()
 		
-		for (int n=1;n<=levels; n
-			theSum = theSum+(n*2-1);
-			System.out.println(theSum);
+		for (int n=0;n<levels; n++) {
+			if (n>0) {
+				//theSum = theSum+(n*2-1);
+				startnum = startnum+leftIndexer;
+				endnum = endnum+rightIndexer;
+				leftIndexer=leftIndexer+2;
+				rightIndexer=rightIndexer+2;
+
+			}
+			else {
+				startnum=0;
+				endnum=0;
+			}
+			theSum=0;
+			leftNum=startnum+1;
+			rightNum=endnum+1;
+			for (int i=leftNum; i<=rightNum;i=i+2) {
+				theSum = theSum + i;
+			}
+			System.out.println((leftNum)+","+(rightNum)+","+theSum);
+
+		}
 			//number[n]=n*2;
 		}
 	}
-}
+
 
 /*
 Given the triangle of consecutive odd numbers:
@@ -35,4 +56,12 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 
 1 -->  1
 2 --> 3 + 5 = 8
+
+1,3,7,13,21
+2,4,6,8
+
+1,5,11,19,29
+4,6,8,10
+
+
  */
