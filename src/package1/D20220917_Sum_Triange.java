@@ -5,7 +5,6 @@ public class D20220917_Sum_Triange {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int levels = 5;
-		int theIndexer=0;
 		int rightIndexer=4;
 		int leftIndexer=2;
 
@@ -18,7 +17,6 @@ public class D20220917_Sum_Triange {
 		
 		for (int n=0;n<levels; n++) {
 			if (n>0) {
-				//theSum = theSum+(n*2-1);
 				startnum = startnum+leftIndexer;
 				endnum = endnum+rightIndexer;
 				leftIndexer=leftIndexer+2;
@@ -44,6 +42,7 @@ public class D20220917_Sum_Triange {
 
 
 /*
+ * Sum of odd numbers
 Given the triangle of consecutive odd numbers:
 
              1
@@ -63,5 +62,11 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 1,5,11,19,29
 4,6,8,10
 
+Best Practice Answer from others
+class RowSumOddNumbers {
+    public static int rowSumOddNumbers(int n) {
+        return n * n * n;
+    }
+}
 
  */
