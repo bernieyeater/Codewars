@@ -12,7 +12,6 @@ public class D20220923_Min_max_array {
 	    returnInt = list[0];
 	    System.out.println(returnInt);
 	}
-
 }
 /*
  * Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
@@ -24,4 +23,18 @@ Examples (Input -> Output)
 * [5]                             -> min = 5, max = 5
 Notes
 You may consider that there will not be any empty arrays/vectors.
+
+Others
+import java.util.Arrays;
+
+public class Kata {
+
+  public int min(int[] list) {
+    return Arrays.stream(list).min().getAsInt();
+  }
+  
+  public int max(int[] list) {
+    return Arrays.stream(list).max().getAsInt();
+  }
+}
 */
