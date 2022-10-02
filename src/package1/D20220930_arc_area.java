@@ -20,5 +20,13 @@ Complete the function that calculates the area of the red square, when the lengt
 Graph
 
 Note: use the π value provided in your language (Math::PI, M_PI, math.pi, etc)
-
+Others
+public class Geometry{
+  public static double squareArea(double A){
+        double l = (2*A)/Math.PI;
+        double x = l*l;
+        double y = Math.round(x * 100) * 0.01d;
+        return y;
+    }
+}
 */
