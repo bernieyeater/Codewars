@@ -1,4 +1,4 @@
-package package1;
+package y2022;
 
 public class D20220921_CountPositive {
 

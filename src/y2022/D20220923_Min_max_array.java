@@ -1,4 +1,4 @@
-package package1;
+package y2022;
 import java.util.Arrays;
 
 public class D20220923_Min_max_array {

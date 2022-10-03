@@ -1,4 +1,4 @@
-package package1;
+package y2022;
 
 public class D20220926_Which_Quarter {
 
@@ -11,7 +11,7 @@ public class D20220926_Which_Quarter {
 		if (month>3) quarter=2;
 		if (month>6) quarter=3;
 		if (month>9) quarter=4;
-		return quarter;
+		//return quarter;
 
 	}
 

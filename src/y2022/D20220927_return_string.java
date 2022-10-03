@@ -1,11 +1,11 @@
-package package1;
+package y2022;
 
 public class D20220927_return_string {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	    if (b) {return "Yes";} else { return "No";}
+	    //if (b) {return "Yes";} else { return "No";}
 	}
 
 }

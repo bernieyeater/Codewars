@@ -1,4 +1,4 @@
-package package1;
+package y2022;
 import java.util.Scanner;
 
 public class D20220929_Lunar_Lander {

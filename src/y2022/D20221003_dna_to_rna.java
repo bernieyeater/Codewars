@@ -1,4 +1,4 @@
-package package1;
+package y2022;
 
 public class D20221003_dna_to_rna {
 
@@ -29,6 +29,12 @@ For example:
 
 "GCAT"  =>  "GCAU"
 The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
-*
+
+*Others
+*public class Bio{
+    public String dnaToRna(String dna){
+        return dna.replace("T", "U");
+    } 
+}
 *
 */

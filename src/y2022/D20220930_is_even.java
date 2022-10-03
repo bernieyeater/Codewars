@@ -1,10 +1,10 @@
-package package1;
+package y2022;
 
 public class D20220930_is_even {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	      return (n%2 == 0)? true:false;
+	      //return (n%2 == 0)? true:false;
 	}
 
 }
