@@ -1,0 +1,6 @@
+Burger
+2.01
+Fry
+1.01
+Soda
+0.5
